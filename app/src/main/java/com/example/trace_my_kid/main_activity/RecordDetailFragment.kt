@@ -1,4 +1,4 @@
-package com.example.cet3013_a2.main_activity
+package com.example.trace_my_kid.main_activity
 
 import android.app.Activity.RESULT_OK
 import android.content.Intent
@@ -16,12 +16,12 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
-import com.example.cet3013_a2.ConfirmationDialog
-import com.example.cet3013_a2.EditRecordActivity
-import com.example.cet3013_a2.R
-import com.example.cet3013_a2.databinding.FragmentRecordDetailBinding
-import com.example.cet3013_a2.roomdb.Record
-import com.example.cet3013_a2.roomdb.ViewModel
+import com.example.trace_my_kid.ConfirmationDialog
+import com.example.trace_my_kid.EditRecordActivity
+import com.example.trace_my_kid.R
+import com.example.trace_my_kid.databinding.FragmentRecordDetailBinding
+import com.example.trace_my_kid.roomdb.Record
+import com.example.trace_my_kid.roomdb.ViewModel
 import java.text.SimpleDateFormat
 import java.util.Locale
 

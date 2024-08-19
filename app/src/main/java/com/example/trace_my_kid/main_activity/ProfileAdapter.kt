@@ -1,4 +1,4 @@
-package com.example.cet3013_a2.main_activity
+package com.example.trace_my_kid.main_activity
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.cet3013_a2.EditReporterActivity
-import com.example.cet3013_a2.R
+import com.example.trace_my_kid.EditReporterActivity
+import com.example.trace_my_kid.R
 
 class ProfileAdapter(context: Context, reporterList: ArrayList<Array<String>>) :
     RecyclerView.Adapter<ProfileAdapter.ViewHolder>() {

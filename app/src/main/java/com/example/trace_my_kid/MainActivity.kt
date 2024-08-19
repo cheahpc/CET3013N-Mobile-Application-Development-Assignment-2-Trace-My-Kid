@@ -1,4 +1,4 @@
-package com.example.cet3013_a2
+package com.example.trace_my_kid
 
 import android.content.Intent
 import android.os.Bundle
@@ -13,12 +13,12 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE
 import androidx.lifecycle.ViewModelProvider
-import com.example.cet3013_a2.databinding.ActivityMainBinding
-import com.example.cet3013_a2.main_activity.GalleryAdapter
-import com.example.cet3013_a2.main_activity.GalleryFragment
-import com.example.cet3013_a2.main_activity.ProfileFragment
-import com.example.cet3013_a2.main_activity.RecordsFragment
-import com.example.cet3013_a2.roomdb.ViewModel
+import com.example.trace_my_kid.databinding.ActivityMainBinding
+import com.example.trace_my_kid.main_activity.GalleryAdapter
+import com.example.trace_my_kid.main_activity.GalleryFragment
+import com.example.trace_my_kid.main_activity.ProfileFragment
+import com.example.trace_my_kid.main_activity.RecordsFragment
+import com.example.trace_my_kid.roomdb.ViewModel
 
 class MainActivity : AppCompatActivity(), GalleryAdapter.OnImageClickListener {
     private lateinit var binding: ActivityMainBinding

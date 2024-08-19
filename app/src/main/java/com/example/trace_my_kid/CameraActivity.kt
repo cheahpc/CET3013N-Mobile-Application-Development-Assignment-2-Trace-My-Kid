@@ -1,4 +1,4 @@
-package com.example.cet3013_a2
+package com.example.trace_my_kid
 
 import android.content.ContentValues
 import android.content.Intent
@@ -20,7 +20,7 @@ import androidx.camera.core.ImageCaptureException
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
-import com.example.cet3013_a2.databinding.ActivityCameraBinding
+import com.example.trace_my_kid.databinding.ActivityCameraBinding
 import java.text.SimpleDateFormat
 import java.util.Locale
 

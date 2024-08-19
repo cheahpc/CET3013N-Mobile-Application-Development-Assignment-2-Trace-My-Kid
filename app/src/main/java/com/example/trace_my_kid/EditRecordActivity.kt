@@ -1,4 +1,4 @@
-package com.example.cet3013_a2
+package com.example.trace_my_kid
 
 import android.app.DatePickerDialog
 import android.app.TimePickerDialog
@@ -22,9 +22,9 @@ import androidx.activity.OnBackPressedCallback
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.lifecycle.ViewModelProvider
-import com.example.cet3013_a2.databinding.ActivityEditRecordBinding
-import com.example.cet3013_a2.roomdb.Record
-import com.example.cet3013_a2.roomdb.ViewModel
+import com.example.trace_my_kid.databinding.ActivityEditRecordBinding
+import com.example.trace_my_kid.roomdb.Record
+import com.example.trace_my_kid.roomdb.ViewModel
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Locale

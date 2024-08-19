@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CET3013_A2"
+rootProject.name = "trace_my_kid"
 include(":app")
  

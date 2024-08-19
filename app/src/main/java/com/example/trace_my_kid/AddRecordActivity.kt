@@ -1,4 +1,4 @@
-package com.example.cet3013_a2
+package com.example.trace_my_kid
 
 import android.app.DatePickerDialog
 import android.app.TimePickerDialog
@@ -21,10 +21,10 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.app.ActivityCompat
-import com.example.cet3013_a2.roomdb.ViewModel
+import com.example.trace_my_kid.roomdb.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.cet3013_a2.databinding.ActivityAddRecordBinding
-import com.example.cet3013_a2.roomdb.Record
+import com.example.trace_my_kid.databinding.ActivityAddRecordBinding
+import com.example.trace_my_kid.roomdb.Record
 import com.example.location.FetchLocationNameTask
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices

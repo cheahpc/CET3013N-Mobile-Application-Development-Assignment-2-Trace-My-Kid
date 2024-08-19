@@ -1,4 +1,4 @@
-package com.example.cet3013_a2.main_activity
+package com.example.trace_my_kid.main_activity
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_OPEN
 import androidx.lifecycle.ViewModelProvider
-import com.example.cet3013_a2.R
-import com.example.cet3013_a2.databinding.FragmentRecordsBinding
-import com.example.cet3013_a2.roomdb.Record
-import com.example.cet3013_a2.roomdb.ViewModel
+import com.example.trace_my_kid.R
+import com.example.trace_my_kid.databinding.FragmentRecordsBinding
+import com.example.trace_my_kid.roomdb.Record
+import com.example.trace_my_kid.roomdb.ViewModel
 
 class RecordsFragment : Fragment() {
 

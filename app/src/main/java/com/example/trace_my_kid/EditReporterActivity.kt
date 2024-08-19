@@ -1,4 +1,4 @@
-package com.example.cet3013_a2
+package com.example.trace_my_kid
 
 import android.graphics.drawable.Drawable
 import android.os.Bundle
@@ -11,9 +11,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.lifecycle.ViewModelProvider
-import com.example.cet3013_a2.databinding.ActivityEditReporterBinding
-import com.example.cet3013_a2.roomdb.Reporter
-import com.example.cet3013_a2.roomdb.ViewModel
+import com.example.trace_my_kid.databinding.ActivityEditReporterBinding
+import com.example.trace_my_kid.roomdb.Reporter
+import com.example.trace_my_kid.roomdb.ViewModel
 import java.util.Timer
 import kotlin.concurrent.schedule
 

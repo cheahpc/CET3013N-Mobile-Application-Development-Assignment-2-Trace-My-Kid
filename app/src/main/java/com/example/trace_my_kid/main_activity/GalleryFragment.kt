@@ -1,4 +1,4 @@
-package com.example.cet3013_a2.main_activity
+package com.example.trace_my_kid.main_activity
 
 import android.Manifest.permission.READ_MEDIA_IMAGES
 import android.annotation.SuppressLint
@@ -18,7 +18,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ItemDecoration
-import com.example.cet3013_a2.R
+import com.example.trace_my_kid.R
 
 // Ref: https://developer.android.com/training/data-storage/shared/media
 // Ref: https://www.geeksforgeeks.org/how-to-build-an-image-gallery-android-app-with-recyclerview-and-glide/

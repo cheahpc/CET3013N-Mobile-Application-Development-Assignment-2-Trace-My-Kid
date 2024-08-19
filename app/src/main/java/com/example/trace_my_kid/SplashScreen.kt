@@ -1,4 +1,4 @@
-package com.example.cet3013_a2
+package com.example.trace_my_kid
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -6,14 +6,12 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.os.CountDownTimer
-import android.view.View
-import android.view.WindowManager
 import android.view.animation.PathInterpolator
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.animation.doOnStart
 import androidx.core.content.ContextCompat
 import androidx.core.view.isGone
-import com.example.cet3013_a2.databinding.ActivitySplashScreenBinding
+import com.example.trace_my_kid.databinding.ActivitySplashScreenBinding
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreen : AppCompatActivity() {

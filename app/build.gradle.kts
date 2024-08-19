@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.cet3013_a2"
+    namespace = "com.example.trace_my_kid"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.cet3013_a2"
+        applicationId = "com.example.trace_my_kid"
         minSdk = 28
         targetSdk = 33
         versionCode = 1

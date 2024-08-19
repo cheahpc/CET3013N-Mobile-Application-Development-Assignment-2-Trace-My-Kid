@@ -1,4 +1,4 @@
-package com.example.cet3013_a2.main_activity
+package com.example.trace_my_kid.main_activity
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.example.cet3013_a2.R
-import com.example.cet3013_a2.roomdb.Record
+import com.example.trace_my_kid.R
+import com.example.trace_my_kid.roomdb.Record
 
 class RecordsAdapter(context: Context,
                      recordList: List<Record>,

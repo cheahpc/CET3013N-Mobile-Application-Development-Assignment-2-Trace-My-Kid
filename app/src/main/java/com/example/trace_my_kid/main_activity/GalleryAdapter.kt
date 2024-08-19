@@ -1,4 +1,4 @@
-package com.example.cet3013_a2.main_activity
+package com.example.trace_my_kid.main_activity
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.cet3013_a2.R
+import com.example.trace_my_kid.R
 import java.io.File
 
 class GalleryAdapter(context: Context, imageList: ArrayList<String>, private val imageClickListener: OnImageClickListener) :

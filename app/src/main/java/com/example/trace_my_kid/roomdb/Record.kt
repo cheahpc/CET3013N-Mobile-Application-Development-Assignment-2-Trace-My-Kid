@@ -1,4 +1,4 @@
-package com.example.cet3013_a2.roomdb
+package com.example.trace_my_kid.roomdb
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
