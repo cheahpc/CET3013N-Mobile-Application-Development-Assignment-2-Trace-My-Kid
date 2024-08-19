@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraActivity">
+
+
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:importantForAccessibility="no"/>
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/img_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_capture"
+        style="@style/btn_shutter"
+        android:elevation="2dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:importantForAccessibility="no" />
+
+    <LinearLayout
+        android:id="@+id/group_confirm_photo"
+        style="@style/confirm_photo_btn_group"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <ImageButton
+            android:id="@+id/btn_recapture"
+            style="@style/confirm_photo_btn.retry"
+            android:elevation="2dp"
+            android:importantForAccessibility="no"
+            tools:ignore="VisualLintBounds" />
+
+        <View
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            tools:ignore="VisualLintBounds" />
+
+        <ImageButton
+            android:id="@+id/btn_confirm_photo"
+            style="@style/confirm_photo_btn.confirm"
+            android:elevation="2dp"
+            android:importantForAccessibility="no"
+            tools:ignore="VisualLintBounds" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_back_from_preview"
+        style="@style/btn_back_from_preview"
+        android:text="@string/camera_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

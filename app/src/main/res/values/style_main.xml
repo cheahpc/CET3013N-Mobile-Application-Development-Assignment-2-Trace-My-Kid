@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="main_container">
+        <!-- Size -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <!-- Color -->
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="fragment_view_container">
+        <!-- Size -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">8</item>
+
+        <!-- Color -->
+    </style>
+
+    <style name="btm_nav_bar">
+        <!-- Size -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:padding">0dp</item>
+
+        <!-- Color -->
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="btm_nav_bar_btn">
+        <!-- Layout -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+
+        <!-- Padding -->
+        <item name="android:padding">10dp</item>
+
+        <!-- Image Settings -->
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:cropToPadding">true</item>
+        <item name="android:scaleType">fitCenter</item>
+
+
+        <!-- Color -->
+        <item name="tint">@color/grey4</item>
+<!--        <item name="android:backgroundTint">@color/transparent</item>-->
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="btm_nav_bar_btn.records" parent="btm_nav_bar_btn">
+    </style>
+
+    <style name="btm_nav_bar_btn.add" parent="btm_nav_bar_btn">
+    </style>
+
+    <style name="btm_nav_bar_btn.profile" parent="btm_nav_bar_btn">
+    </style>
+
+</resources>
